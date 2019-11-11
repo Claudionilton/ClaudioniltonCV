@@ -4,7 +4,13 @@ body {
 	max-width: 1000px;
 	width: 100%;
 	margin: 0 auto;
+	background-image: url('file:///C:/Users/Junior/Desktop/repositorio%20local%20git/ClaudioniltonCV/background/background.jpg'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 
 
 h1,h2 {
@@ -21,13 +27,12 @@ h2 {
 	color:white;
 	padding: 5px;	
 }
-#imgpos {
-	position: absolute; 
-	right: 100px; /* posiciona a 90px para a esquerda */ 
-	top: 120px; /* posiciona a 70px para baixo */
-	}
-	#container  {  	
-		margin: 1em auto;  	
-		width: 650px;  	
-		background: black;  
-		}    
+
+.container {
+	-webkit-border-radius: 5px;
+	background-color: #ffffff;
+	margin: 10px 50px;
+	padding: 5px 20px;
+}
+	
+  
